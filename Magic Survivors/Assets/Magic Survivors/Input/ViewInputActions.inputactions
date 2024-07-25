@@ -1,0 +1,34 @@
+{
+    "name": "ViewInputActions",
+    "maps": [
+        {
+            "name": "KeyBoardAndMouse",
+            "id": "aafe1209-ff19-4f11-9e0c-d9d3b6ac89ed",
+            "actions": [
+                {
+                    "name": "ToggleMenu",
+                    "type": "Button",
+                    "id": "951c5ba8-a266-429d-8e7e-7cfa63e600fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f19d449c-bb31-4e3d-b22d-519bfcc10726",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

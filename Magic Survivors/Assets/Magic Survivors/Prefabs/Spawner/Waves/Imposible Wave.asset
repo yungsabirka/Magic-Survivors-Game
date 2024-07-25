@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25151d3d715c6af42bdb728f338d9aad, type: 3}
+  m_Name: Imposible Wave
+  m_EditorClassIdentifier: 
+  _waveUnits:
+  - Enemy: {fileID: 8466061516138658794, guid: 2e8d672f894b8aa40a21bc234a8748a9, type: 3}
+    Amount: 10
+    SpawnDelayInSeconds: 2
+    TimeBeforeSpawnInSeconds: 4
+  - Enemy: {fileID: 8466061516138658794, guid: c98dd34c81d8c34499b37e81df96d184, type: 3}
+    Amount: 15
+    SpawnDelayInSeconds: 2
+    TimeBeforeSpawnInSeconds: 10
+  - Enemy: {fileID: 5499739808604244719, guid: a90864417c23e7f4aa3328a9e5f1fd6d, type: 3}
+    Amount: 7
+    SpawnDelayInSeconds: 5
+    TimeBeforeSpawnInSeconds: 20
+  - Enemy: {fileID: 8541851857422885792, guid: 014a72257ae5b8740a055018246af032, type: 3}
+    Amount: 10
+    SpawnDelayInSeconds: 5
+    TimeBeforeSpawnInSeconds: 20
+  - Enemy: {fileID: 7572627630849952134, guid: c5ae2ff5de4a86d4e96f992b29c45dc1, type: 3}
+    Amount: 15
+    SpawnDelayInSeconds: 5
+    TimeBeforeSpawnInSeconds: 20
+  - Enemy: {fileID: 8541851857422885792, guid: 493559a72cceabd45b863ea3cc1404e7, type: 3}
+    Amount: 3
+    SpawnDelayInSeconds: 10
+    TimeBeforeSpawnInSeconds: 60

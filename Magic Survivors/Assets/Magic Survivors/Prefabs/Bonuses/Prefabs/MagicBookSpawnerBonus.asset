@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f44f2ca854c004e921a6ea85a4a522, type: 3}
+  m_Name: MagicBookSpawnerBonus
+  m_EditorClassIdentifier: 
+  _children:
+  - {fileID: 11400000, guid: 377ae93440d99f7488faf425bb794a79, type: 2}
+  - {fileID: 11400000, guid: e5e12e0bd63b76841afbb28544e1a7e0, type: 2}
+  - {fileID: 11400000, guid: 5fcfaae49c4a6744dab02f6e043d439d, type: 2}
+  - {fileID: 11400000, guid: c39835f5687b31d4889d4de498ed6995, type: 2}
+  - {fileID: 11400000, guid: fe5c4a6a8aa8753438ef3c3ccfbd653a, type: 2}
+  _sprite: {fileID: -1649463508, guid: ba00d2cc9cfe3aa4dbabe584112b29a8, type: 3}
+  _description: Add Magix Book
+  _magixBookPrefab: {fileID: 4417411531409899574, guid: 93631ec8442adb24c859ba2f3226ab95, type: 3}

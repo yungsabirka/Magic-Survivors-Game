@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6068900e475094eb262c66107cf781, type: 3}
+  m_Name: TridentBonus
+  m_EditorClassIdentifier: 
+  _children:
+  - {fileID: 11400000, guid: 0a25ceb7286fdea4286c0eeb4b6da7b5, type: 2}
+  - {fileID: 11400000, guid: 678dbbddfcfafe74889092f33b9a1a54, type: 2}
+  _sprite: {fileID: 923939213, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+  _description: Create trident for afk attacks
+  _tridentPrefab: {fileID: 6136419931422203964, guid: 4c225becd60930a458fd35bd11053d2e, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25151d3d715c6af42bdb728f338d9aad, type: 3}
+  m_Name: Bandit Wave
+  m_EditorClassIdentifier: 
+  _waveUnits:
+  - Enemy: {fileID: 8466061516138658794, guid: 2e8d672f894b8aa40a21bc234a8748a9, type: 3}
+    Amount: 5
+    SpawnDelayInSeconds: 5
+    TimeBeforeSpawnInSeconds: 10
+  - Enemy: {fileID: 8466061516138658794, guid: c98dd34c81d8c34499b37e81df96d184, type: 3}
+    Amount: 10
+    SpawnDelayInSeconds: 3
+    TimeBeforeSpawnInSeconds: 5

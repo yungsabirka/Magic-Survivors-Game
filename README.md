@@ -19,6 +19,7 @@ My game is inspired by the Vampire Survivors project with some changes.
 ###
 # Gameplay
 ![image](https://github.com/user-attachments/assets/379326ae-61ea-49a2-a155-35a2ace5462f)
+![image](https://github.com/user-attachments/assets/abdb9ccd-b13f-443e-8291-3cf86773fd64)
 ![image](https://github.com/user-attachments/assets/ff753e93-8455-4362-ada0-8aecdf6a4e93)
 ###
 # Gameplay video

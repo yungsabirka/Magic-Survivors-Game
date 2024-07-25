@@ -13,6 +13,9 @@ public class EnemyHealth : MonoBehaviour, IDamagable, IMortal, IInitializable
 
     private EnemyAnimator _animator;
     private int _maxHealth;
+    private bool _isDied;
+
+    public bool IsDied => _isDied;
 
     private void Awake()
     {
@@ -26,6 +29,9 @@ public class EnemyHealth : MonoBehaviour, IDamagable, IMortal, IInitializable
 
     public void TakeDamage(int damage)
     {
+        if (_isDied)
+            return;
+
         _health -= damage;
         HealthChanged.Invoke(_health, _maxHealth);
 
@@ -40,6 +46,7 @@ public class EnemyHealth : MonoBehaviour, IDamagable, IMortal, IInitializable
 
     private void Die()
     {
+        _isDied = true;
         Died?.Invoke();
         Dying?.Invoke(gameObject);
         _animator.Animator.SetTrigger(_animator.IsDiedId);

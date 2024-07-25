@@ -32,7 +32,7 @@ public class EnemyMover : MonoBehaviour, IInitializable
 
     private void Update()
     {
-        if (_isCanMoving)
+        if (_isCanMoving && _health.IsDied == false)
             Move();
     }
 
